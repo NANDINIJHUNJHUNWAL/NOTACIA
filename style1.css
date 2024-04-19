@@ -1,0 +1,48 @@
+.container-fluid{
+    width: 90%;
+}
+
+.navbar-brand{
+    color: rgb(228, 33, 33));
+}
+
+.me-2{
+    width: 45% !important;
+    border-radius: 8px;
+}
+
+.notes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.addNoteContainer{
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+.input_title{
+    border: none;
+    border-bottom: 1px solid #106dbe;
+    margin-bottom: 6px;
+}
+
+.input_descp{
+    border: none;
+}
+
+.button_save{
+    border-radius: 10px;
+}
+
+.card{
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card_btns{
+    border-radius: 50%;
+    padding: 7px;
+}
