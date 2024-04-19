@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOTACIA</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+        body {
+
+            background-color: rgb(57, 100, 164);
+            padding-top: 60px;
+        }
+
+        .jumbotron {
+            background-image: url(https://images.freecreatives.com/wp-content/uploads/2016/04/Abstract-Website-Background.jpg);
+            color: #fff;
+            padding: 100px 25px;
+            text-align: center;
+        }
+
+        .feature {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        /* Styling the body */
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        /* Styling the first parallax's 
+		height, width and background color */
+        .parallax-1 {
+            width: 100%;
+            height: 600px;
+            background: url(https://cdn.wallpapersafari.com/49/78/ml3qau.jpg);
+            background-size: 100% 100%;
+            background-attachment: fixed;
+        }
+
+        /* Styling the content or paragraph */
+        .para-1 {
+            padding: 50px;
+            background-color: rgb(57, 100, 164);
+            color: rgb(0, 0, 0);
+            font-size: 17px;
+        }
+
+        .contact-left {
+            flex-basis: 35%;
+        }
+
+        .contact-right {
+            flex-basis: 60%;
+        }
+
+        .contact-left p {
+            margin-top: 30px;
+        }
+
+        .contact-left p i {
+            color: #ff004f;
+            margin-right: 15px;
+            font-size: 25px;
+        }
+
+        .social-icons {
+            margin-top: 30px;
+        }
+
+        .social-icons a {
+            text-decoration: none;
+            font-size: 30px;
+            margin-right: 15px;
+            color: #ababab;
+            display: inline-block;
+            transition: transform 0.5s;
+        }
+
+        .social-icons a:hover {
+            color: #ff004f;
+            transform: translateY(-5px);
+
+        }
+
+        .btn.btn2 {
+            display: inline-block;
+            background: #ff004f;
+        }
+
+        .contact-right form {
+            width: 100%;
+        }
+
+        form input,
+        form textarea {
+            width: 100%;
+            border: 0;
+            outline: none;
+            background: #262626;
+            padding: 15px;
+            margin: 15px 0;
+            color: #fff;
+            font-size: 18px;
+            border-radius: 6px;
+        }
+
+        form .btn2 {
+            padding: 14px 60px;
+            font-size: 18px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+
+        .copyright {
+            width: 100%;
+            text-align: center;
+            padding: 25px 0;
+            background-color: rgb(57, 100, 164);
+            font-weight: 300;
+            margin-top: 20px;
+        }
+
+        .copyright i {
+            color: #ff004f;
+        }
+
+        #msg {
+            color: #61b752;
+            margin-top: -30px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <a class="navbar-brand" href="#">NOTACIA</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="http://127.0.0.1:5500/notacia.html">my notes
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="http://127.0.0.1:5500/login.html">login</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="http://127.0.0.1:5500/contact.html">Contact</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="http://127.0.0.1:5500/privacy.html">privacy</a>
+                </li>
+                <li class="dropdown">
+                    <button class="btn btn-primmary dropdown-toggle" type="button" id="dropdownMenuButton"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        HELP
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="http://127.0.0.1:5500/terms%20and%20condition.html">terms and
+                            services</a>
+                        <a class="dropdown-item" href="http://127.0.0.1:5500/developers.html">developers</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <header class="jumbotron">
+        <div class="container">
+            <h1 class="display-4">Get more from your note taking app</h1>
+            <p class="lead">Capture important ideas and information in ways that help you stay productive.</p>
+        </div>
+    </header>
+    <div class="para-1">
+        <section class="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2>Safe and Synced</h2>
+                        <p>Tired of not having the right info handy when you need it? Notacia automatically saves notes
+                            online and syncs them to all your devices.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Searching made easy</h2>
+                        <p>Find notes by searching for titles, dates, content types, and keywords—including words in
+                            pictures and handwriting—and get suggestions while you type.</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Take notes and take action</h2>
+                        <p>Create tasks inside your notes to give your to-dos context, streamline your workflow, and get
+                            more done—faster</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="parallax-1">
+        <h1>
+            <center> <style=font-size:"20px"> Comprehensive underneath, simple on the surface</style>
+            </center>
+        </h1>
+        <section class="feature">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h2>use it everywhere</h2>
+                        <p>Notes stay updated across all your devices, automatically and in real time. There’s no “sync”
+                            button: It just works..</p>
+                        <div class="wp-block-image feature-icon">
+                            <figure class="alignleft size-large is-resized"><img
+                                    src="https://simplenoteblog.files.wordpress.com/2020/07/ic_cloud-sync.png?w=72"
+                                    alt="" class="wp-image-381" width="32" height="32" /></figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Stay organized</h2>
+                        <p>Add tags to find notes quickly with instant searching</p>
+                        <div class="wp-block-image feature-icon">
+                            <figure class="alignleft size-large is-resized"><img
+                                    src="https://simplenoteblog.files.wordpress.com/2020/07/ic_tags.png?w=72" alt=""
+                                    class="wp-image-383" width="32" height="32" /></figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>work-together</h2>
+                        <p>Share a to-do list, post some instructions, or publish your notes online.</p>
+                        <div class="wp-block-image feature-icon">
+                            <figure class="alignleft size-large is-resized"><img data-attachment-id="385"
+                                    data-permalink="https://simplenote.com/2013/09/18/a-new-simplenote/simplenote-featured-ios/"
+                                    data-orig-file="https://simplenoteblog.files.wordpress.com/2013/09/simplenote-featured-ios2.png"
+                                    data-orig-size="1024,500" data-comments-opened="1"
+                                    data-image-meta="{&quot;aperture&quot;:&quot;0&quot;,&quot;credit&quot;:&quot;&quot;,&quot;camera&quot;:&quot;&quot;,&quot;caption&quot;:&quot;&quot;,&quot;created_timestamp&quot;:&quot;0&quot;,&quot;copyright&quot;:&quot;&quot;,&quot;focal_length&quot;:&quot;0&quot;,&quot;iso&quot;:&quot;0&quot;,&quot;shutter_speed&quot;:&quot;0&quot;,&quot;title&quot;:&quot;&quot;}"
+                                    data-image-title="simplenote-featured-ios" data-image-description=""
+                                    data-image-caption=""
+                                    data-medium-file="https://simplenoteblog.files.wordpress.com/2013/09/simplenote-featured-ios2.png?w=300"
+                                    data-large-file="https://simplenoteblog.files.wordpress.com/2013/09/simplenote-featured-ios2.png?w=750"
+                                    src="https://simplenoteblog.files.wordpress.com/2020/07/ic_collaborate.png?w=72"
+                                    alt="" class="wp-image-385" width="32" height="32" /></figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>Go back in time</h2>
+                        <p>Notes are backed up with every change, so you can see what you noted last week or last month
+                        </p>
+                        <div class="wp-block-image feature-icon">
+                            <figure class="alignleft size-large is-resized"><img loading="lazy"
+                                    src="https://simplenoteblog.files.wordpress.com/2020/07/ic_history.png?w=72" alt=""
+                                    class="wp-image-380" width="32" height="32" /></figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>markdown-support</h2>
+                        <p>Write, preview, and publish your notes in Markdown format</p>
+                        <div class="wp-block-image feature-icon">
+                            <figure class="alignleft size-large is-resized"><img loading="lazy"
+                                    src="https://simplenoteblog.files.wordpress.com/2020/07/ic_notes.png?w=72" alt=""
+                                    class="wp-image-384" width="32" height="32" /></figure>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h2>It's free</h2>
+                        <p>Apps, backups, syncing, sharing – it’s all completely free</p>
+                        <div class="wp-block-image feature-icon">
+                            <figure class="alignleft size-large is-resized"><img loading="lazy"
+                                    src="https://simplenoteblog.files.wordpress.com/2020/07/ic_info.png?w=72" alt=""
+                                    class="wp-image-382" width="32" height="32" /></figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </div>
+
+    <div class="copyright">
+        <A href="http://127.0.0.1:5500/homepage.html">welcome to our NOTACIA <i class="fa-solid fa-heart"></i> </A>
+    </div>
+    </div>
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

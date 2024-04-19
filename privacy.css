@@ -1,0 +1,69 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(https://2.bp.blogspot.com/-KJWIDXhI8es/XIfXegiInpI/AAAAAAAATuE/QuBYZRd3W0E8QpKAum6dEp-tV21MOHyXQCLcBGAs/w1200-h630-p-k-no-nu/good%2Bnight%2Bsweet%2Bdreams%2Bgif%2Bimage%2Bgreetings%2Bnew.gif);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    max-width: 460px;
+    background-color: black;
+    color: #f1f1f1;
+    font-family: "Montserrat";
+    padding: 60px 30px;
+}
+
+.text{
+    padding: 0 20px;
+    height: 400px;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 500;
+    color: #f1f1f1;
+}
+
+.text::-webkit-scrollbar{
+    width: 2px;
+    background-color: black;
+}
+
+.text::-webkit-scrollbar-thumb{
+    background-color: #d13639;
+
+}
+.container h4 span{
+    color: #d13639;
+}
+.buttons{
+    display: flex;
+    padding: 0 20px;
+    justify-content: space-between;
+}
+
+.btn{
+    height: 50px;
+    width: calc(50% - 6px);
+    border: 0;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+.red-btn{
+    background-color: #d13639;
+
+}
+
+.gray-btn{
+    background-color: #282828;
+}
+
+.btn:hover{
+    opacity: .6;
+}
